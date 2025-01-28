@@ -1,38 +1,33 @@
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
+## 스벨트 설치
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+# hello-world 폴더가 만들어지며 설치가 시작됨
+> npx sv create hello-world
 
-# create a new project in my-app
-npm create svelte@latest my-app
+# Directory not empty. Continue?
+> Yes
+
+# Which template would you like?
+> SvelteKit minimal
+
+# Add type checking with Typescript?
+> Yes, using Javascript with JSDoc comments
+
+# Project created...
+
+# What would you like to add to your project? (use arrow keys / space bar)
+> prettier, eslint
+
+# Which package manager do you want to install dependencies with?
+> npm
+
+# An eslint config is already defined. Skipping initialization
+
+# Successfully setup add-ons
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 실행하기
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
